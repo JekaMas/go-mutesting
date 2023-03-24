@@ -38,7 +38,6 @@ func foo() int {
 	skip := true
 	if true {
 		_ = skip
-
 	}
 
 	return n
@@ -48,7 +47,7 @@ func bar() int {
 	return 4
 }
 
-func baz() int {
+func baz() int { //nolint:unused
 	i := 1
 	i = i + i
 

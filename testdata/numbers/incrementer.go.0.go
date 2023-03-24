@@ -1,4 +1,5 @@
-//go:build test
+//go:build examplemain
+// +build examplemain
 
 package main
 
